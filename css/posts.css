@@ -1,50 +1,50 @@
 body {
-    background-color: #d8d7d7 !important;
-  }
-  
-  .container {
-    margin-top: 50px;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    width: 50%;
-    background-color: #f0f0f0;
-  }
-  
-  .slug {
-    color: red !important;
-    margin-top: 40px;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    margin-left: 10px;
-  }
-  
-  /*buttons*/
-  .add {
-    border-radius: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-    background-color: green;
-    color: white;
-    border: none;
-  }
-  #searchBar {
-    width: 100%;
-    height: 32px;
-    border-radius: 3px;
-    border: 1px solid #eaeaea;
-    padding: 5px 10px;
-    font-size: 12px;
+  background-color: #d8d7d7 !important;
+}
+
+.container {
+  margin-top: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 50%;
+  background-color: #f0f0f0;
+}
+
+p {
+  margin-left: 10px;
+}
+
+/*buttons*/
+.add {
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+#searchBar {
+  width: 100%;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #eaeaea;
+  padding: 5px 10px;
+  font-size: 12px;
 }
 
 #searchWrapper {
-    position: relative;
+  position: relative;
 }
-
-/* #searchWrapper::after {
-    content: '🔍';
-    position: absolute;
-    top: 7px;
-    right: 15px;
-} */
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
